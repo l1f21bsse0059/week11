@@ -13,7 +13,7 @@ jobs:
       - name: welcome steps
         run: echo "Welcome to the Gh Actions"
       - name: Checkout Repository
-        uses: actions/checkoput@v4
+        uses: actions/checkout@v4
       - name: Repository information
         run: |
           echo "Repository name: ${{github.repository}}" 
